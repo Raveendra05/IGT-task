@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    /* padding: 2rem; */
+}
+.container-fluid{
+    border: 30px solid rgb(0, 187, 255);
+    margin: 0.5rem;
+    border-radius: 10px;
+    padding: 4rem;
+}
+.certificate-heading{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+.certificate-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.certificate-paragraph{
+   text-align: center;
+   font-size: 1.5rem;
+}
+.person-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem;
+    line-height: 8rem;
+    font-size: 1.5rem;
+}
+.certificate-footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 1.5rem;
+
+}
+.heading-certificate{
+    font-size: 2rem;
+    color:  rgb(0, 187, 255)
+    /* font-style: italic; */
+}
+.first-container{
+    line-height: 1.7rem;
+}
+.certificate-para{
+    font-size: 3rem;
+}
+.certificate-person{
+    font-size: 3rem;
+    color: burlywood;
+}
+.date-time{
+    text-align: center;
+    line-height: 2.5rem;
+}
+image{
+    border-radius: 50%;
+    margin: 0rem;
+    /* aspect-ratio: 2/3; */
+}
+.third-container{
+    display: flex;
+    line-height: 1.7rem;
+    text-align: end;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="first-container">
+          <p>Register-Id: <%=data.register_Id%></p>
+          <p>E-Mail: <%=data.email%></p>
+          <p>Phone No: <%=data.phone%></p>
+        </div>
+        <div class="second-container">
+          <img src="/images/logo2.jpg" class="image" width="200" height="200"  alt="no" />
+        </div>
+        <div class="third-container">
+          16 , Sheetal Nagar <br/>
+          Indore ( 452010) <br/>
+          (Madhya Pradesh) India
+          
+        </div>
+      </div>
+      <div class="certificate-heading">
+        <div class="heading-certificate">
+          <h1>Certificate of Half Marathon</h1>
+        </div>
+        <div class="certificate-name">
+          <div class="certificate-para">
+            <p>This Certificate Presented to</p>
+          </div>
+          <div class="certificate-person">
+          <p><%=data.name%></p> 
+          </div>
+        </div>
+        <div>
+          <p class="certificate-paragraph">
+            The certificate of achievement is awarded to individuals who have<br />
+            demonstrated outstanding performance in their field. Here’s an example text
+            <br />for a certificate.
+          </p>
+        </div>
+      </div>
+      <div class="person-details">
+            <div>Date of Birth :<%=data.dob%></div>
+            <div>Gender:<%=data.gender%></div>
+            <div>Blood Group:<%=data.bloodgroup%></div>
+      </div>
+      <div class="certificate-footer">
+        <div class="date-time">
+            <p><%=data.date%></p>
+            <hr width="300px"/>
+            <p> DAY-DATE</p>
+        </div>
+        <div>
+            <img src="/images/logo.jpg"  class="image"  width="200" height="200"  alt="image">
+        </div>
+        <div class="date-time">
+            <hr width="300px"/>
+            <p> SIGNATURE</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
